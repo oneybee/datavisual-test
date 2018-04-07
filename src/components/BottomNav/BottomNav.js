@@ -28,7 +28,7 @@ export default class BottomNavComponent extends Component {
           </Link>
         </div>
         <div className="col-3">
-          <a href="https://github.com/oneybee/datavisual-react">
+          <a href="https://github.com/oneybee/datavisual-test">
             <span className="chief-mate chief-mate-github"></span>
             <p>Github</p>
           </a>

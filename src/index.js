@@ -5,7 +5,7 @@ import App from './components/App';
 import './styles/style.scss';
 
 ReactDOM.render(
-  <BrowserRouter basename="/datavisual-react">
+  <BrowserRouter basename="/datavisual-test">
     <App />
   </BrowserRouter>,
   document.getElementById('root'),
