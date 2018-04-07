@@ -1,0 +1,32 @@
+.section-02 {
+    margin-top: 45px;
+    font-size: 15px;
+    .recharts-wrapper {
+        position: relative;
+        right: 20px;
+    }
+    .piechart-text-label-wrapper {
+        margin-top: 25px;
+        .piechart-text-label {
+            font-size: 11px;
+            margin-right: 10px;
+        }
+        .label-point {
+            width: 6px;
+            height: 6px;
+            display: inline-block;
+            border-radius: 30px;
+            margin-right: 5px;
+            &.win {
+                background: rgb(137, 166, 255);
+            }
+            &.loss {
+                background: rgb(255, 151, 134);
+            }
+        }
+    }
+    .piechart-label {
+        font-size: 10px !important;
+        font-weight: 700;
+    }
+}

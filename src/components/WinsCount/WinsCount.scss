@@ -1,0 +1,27 @@
+.wins-count {
+    padding: 0 20px;
+    padding-bottom: 140px;
+    .section-03 {
+        margin-top: 45px;
+        .font {
+            font-size: 15px !important;
+            p {
+                margin-top: 15px;
+            }
+        }
+        .areachart {
+            margin-top: 30px;
+            .recharts-wrapper {
+                // background: red;
+                border-radius: 8px;
+                border: 1px solid rgb(235, 235, 235);
+            }
+            .recharts-cartesian-axis-ticks {
+                display: none;
+            }
+            .xAxis {
+                display: none;
+            }
+        }
+    }
+}

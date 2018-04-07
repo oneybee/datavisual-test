@@ -1,0 +1,53 @@
+@import '../../styles/base';
+
+.info-banner {
+  margin-top: 30px;
+  .section-title {
+      position: relative;
+      font-size: 24pt;
+      font-weight: 900;
+      width: 100%;
+      text-align: center;
+   }    
+  .item {
+      display: inline-block;
+      background-repeat: no-repeat;
+      height: 90px;
+      margin-top: 30px;
+      position: relative;
+      .item-inner {
+          text-align: center;
+          @include center(xy);
+          position: absolute;
+          width: 100%;
+      }
+      h1 {
+          color: white;
+          font-size: 25px;
+      }
+      p {
+          color: white;
+          font-size: 15px;
+          font-weight: 100;
+          margin-top: 10px;
+      }
+  }
+  .item-01 {
+      background: url('../../../assets/images/box-color-01.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .item-02 {
+      background: url('../../../assets/images/box-color-02.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .item-03 {
+      background: url('../../../assets/images/box-color-03.png');
+  }
+  .item-04 {
+      background: url('../../../assets/images/box-color-04.png');
+  }
+}
