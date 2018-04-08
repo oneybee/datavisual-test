@@ -6,7 +6,7 @@ export default function HeaderComponent() {
     <div className="header"> 
       <div className="nav">
         <span className="chief-mate chief-mate-menu"></span>
-        <a className="profile-img"><img src="assets/images/profile.jpg"/></a>
+        <a className="profile-img"><img src="../../assets/images/profile.jpg"/></a>
       </div>
     </div>
   );
